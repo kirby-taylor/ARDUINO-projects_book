@@ -1,0 +1,4 @@
+.subckt SERVO POS SIG NEG
+Rload POS NEG 100
+Rsig SIG NEG 1Meg
+.ends SERVO
