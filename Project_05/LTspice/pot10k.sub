@@ -1,0 +1,4 @@
+.subckt POT TOP WIPER BOTTOM params: Rtot=10k P=0.5
+Rtop TOP WIPER {Rtot*(1-P)+1m}
+Rbottom WIPER BOTTOM {Rtot*P+1m}
+.ends POT
